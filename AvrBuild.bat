@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\users\iangelmx\documents\github\microcontrollers\labels.tmp" -fI  -o "c:\users\iangelmx\documents\github\microcontrollers\puertoses.hex" -d "c:\users\iangelmx\documents\github\microcontrollers\puertoses.obj" -e "c:\users\iangelmx\documents\github\microcontrollers\puertoses.eep" -m "c:\users\iangelmx\documents\github\microcontrollers\puertoses.map" -W+ie   "C:\Users\iAngelMx\Documents\GitHub\microControllers\puertosES.asm"
