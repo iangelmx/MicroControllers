@@ -1,0 +1,21 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>30</LINE></main>
+  <kitmit><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>61</LINE></kitmit>
+  <kit><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>36</LINE></kit>
+  <izquierda><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>49</LINE></izquierda>
+  <derecha><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>39</LINE></derecha>
+  <delay_62ms><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>104</LINE></delay_62ms>
+  <kitfuera><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>65</LINE></kitfuera>
+  <kitdentro><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>83</LINE></kitdentro>
+  <lazo2><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>105</LINE></lazo2>
+  <lazo1><FILE>C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm</FILE><LINE>106</LINE></lazo1>
+ </LABELS>
+</ASSEMBLER_INFO>
