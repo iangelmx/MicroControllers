@@ -1,0 +1,3 @@
+@ECHO OFF
+del "c:\users\iangelmx\documents\github\microcontrollers\practica01\labels.tmp"
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "c:\users\iangelmx\documents\github\microcontrollers\practica01\labels.tmp" -fI  -o "c:\users\iangelmx\documents\github\microcontrollers\practica01\practica01.hex" -d "c:\users\iangelmx\documents\github\microcontrollers\practica01\practica01.obj" -e "c:\users\iangelmx\documents\github\microcontrollers\practica01\practica01.eep" -m "c:\users\iangelmx\documents\github\microcontrollers\practica01\practica01.map" -W+ie   "C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm"

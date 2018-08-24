@@ -1,0 +1,21 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>24</LINE></main>
+  <kitmit><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>55</LINE></kitmit>
+  <kit><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>30</LINE></kit>
+  <izquierda><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>43</LINE></izquierda>
+  <derecha><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>33</LINE></derecha>
+  <delay_62ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>112</LINE></delay_62ms>
+  <kitfuera><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>59</LINE></kitfuera>
+  <kitdentro><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>85</LINE></kitdentro>
+  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>113</LINE></lazo2>
+  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm</FILE><LINE>114</LINE></lazo1>
+ </LABELS>
+</ASSEMBLER_INFO>
