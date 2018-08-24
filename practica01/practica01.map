@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\ayhc9\Desktop\ESCOM\7MO SEMESTRE\Introduccion a los Microcontroladores\AVRStudio\practica01\practica01.asm Wed Aug 22 01:41:28 2018
+AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\practica01\practica01.asm Thu Aug 23 19:36:50 2018
 
 
 EQU  signature_000 0000001e
@@ -666,16 +666,13 @@ DEF  izq          r17
 DEF  temp2        r18
 DEF  cont1        r19
 DEF  cont2        r20
-DEF  mit1         r21
-DEF  mit2         r22
-DEF  mres         r23
-CSEG main         0000000c
-CSEG kitmit       00000023
-CSEG kit          0000000f
-CSEG izquierda    0000001a
-CSEG derecha      00000011
-CSEG delay_62ms   00000044
-CSEG kitfuera     00000026
-CSEG kitdentro    00000035
-CSEG lazo2        00000045
-CSEG lazo1        00000046
+CSEG main         0000000a
+CSEG kitmit       00000021
+CSEG kit          0000000d
+CSEG izquierda    00000018
+CSEG derecha      0000000f
+CSEG delay_62ms   00000056
+CSEG kitfuera     00000024
+CSEG kitdentro    0000003d
+CSEG lazo2        00000057
+CSEG lazo1        00000058
