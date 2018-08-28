@@ -1,3 +1,4 @@
+
 	.include "m48def.inc"
 	.def temp = r16
 	.def izq = r17
@@ -7,25 +8,22 @@
 	.cseg
 	.org 0 ; En el registro 0 tenemos al reset
 	rjmp reset
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
-	reti
 
-	.org $010
-	rjmp timer_cero ; timer0 contador de 8 bits
-reset: ldi temp, $ff ; puerto B
+	.org $00e
+	rjmp timer_cero
+	
+	;.org $010
+	;rjmp timer_cero ; timer0 contador de 8 bits
+reset: ldi temp,$02
+	OUT tccr0a,temp
+	ldi temp,$05
+	out tccr0b,temp
+	ldi temp, 244
+	out ocr0a, temp
+	ldi temp, $02
+	sts timsk0, temp
+
+	ldi temp, $ff ; puerto B	
 	out ddrb, temp ; Configurando el puerto B como salida
 	ldi temp, $04 ; El 04 es para el preescalamiento
 	out tccr0b, temp ; Como no es un registro extendido, se puede poner la salida con OUT
