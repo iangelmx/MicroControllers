@@ -7,14 +7,14 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>28</LINE></reset>
-  <timer_cero><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>87</LINE></timer_cero>
-  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>49</LINE></main>
-  <kit><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>54</LINE></kit>
-  <izquierda><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>63</LINE></izquierda>
-  <derecha><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>56</LINE></derecha>
-  <delay_125ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>71</LINE></delay_125ms>
-  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>72</LINE></lazo2>
-  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm</FILE><LINE>73</LINE></lazo1>
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>17</LINE></reset>
+  <timer_cero><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>87</LINE></timer_cero>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>45</LINE></main>
+  <kit><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>50</LINE></kit>
+  <izquierda><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>59</LINE></izquierda>
+  <derecha><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>52</LINE></derecha>
+  <delay_125ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>67</LINE></delay_125ms>
+  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>68</LINE></lazo2>
+  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm</FILE><LINE>69</LINE></lazo1>
  </LABELS>
 </ASSEMBLER_INFO>

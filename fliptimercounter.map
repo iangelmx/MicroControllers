@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\kit_conInterrupcion.asm Mon Aug 27 18:45:21 2018
+AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\FlipTimerCounter.asm Mon Aug 27 19:05:22 2018
 
 
 EQU  signature_000 0000001e
@@ -666,12 +666,12 @@ DEF  izq          r17
 DEF  temp2        r18
 DEF  cont1        r19
 DEF  cont2        r20
-CSEG reset        00000011
-CSEG timer_cero   00000043
-CSEG main         00000023
-CSEG kit          00000025
-CSEG izquierda    0000002e
-CSEG derecha      00000027
-CSEG delay_125ms  00000035
-CSEG lazo2        00000036
-CSEG lazo1        00000037
+CSEG reset        0000000f
+CSEG timer_cero   00000047
+CSEG main         00000027
+CSEG kit          00000029
+CSEG izquierda    00000032
+CSEG derecha      0000002b
+CSEG delay_125ms  00000039
+CSEG lazo2        0000003a
+CSEG lazo1        0000003b
