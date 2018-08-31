@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <comprobacion><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>18</LINE></comprobacion>
+  <corazon><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>28</LINE></corazon>
+  <feliz><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>30</LINE></feliz>
+  <triste><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>32</LINE></triste>
+  <equis><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>34</LINE></equis>
+  <funcion1><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>38</LINE></funcion1>
+  <funcion2><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>76</LINE></funcion2>
+  <funcion3><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>114</LINE></funcion3>
+  <funcion4><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>152</LINE></funcion4>
+  <iniheart><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>39</LINE></iniheart>
+  <delay_250><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>179</LINE></delay_250>
+  <finheart><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>73</LINE></finheart>
+  <inifeliz><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>77</LINE></inifeliz>
+  <finfeliz><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>111</LINE></finfeliz>
+  <initriste><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>115</LINE></initriste>
+  <fintriste><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>149</LINE></fintriste>
+  <inix><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>153</LINE></inix>
+  <finx><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>175</LINE></finx>
+  <lazo32><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>180</LINE></lazo32>
+  <lazo31><FILE>C:\Users\Coraje180\Desktop\matriz\matriz.asm</FILE><LINE>181</LINE></lazo31>
+ </LABELS>
+</ASSEMBLER_INFO>

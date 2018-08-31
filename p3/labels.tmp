@@ -1,0 +1,17 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>35</LINE></main>
+  <aumentar><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>44</LINE></aumentar>
+  <disminuir><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>51</LINE></disminuir>
+  <delay_50ms><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>59</LINE></delay_50ms>
+  <lazo2><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>60</LINE></lazo2>
+  <lazo1><FILE>C:\Users\Coraje180\Desktop\p3\p3.asm</FILE><LINE>61</LINE></lazo1>
+ </LABELS>
+</ASSEMBLER_INFO>
