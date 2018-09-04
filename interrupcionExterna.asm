@@ -27,6 +27,7 @@ main: in temp, pinb
 	out portb, temp
 	rjmp main
 ;Falta poner los registros para hacer los delays
+;Hay que ponerle un push y un pop para guardar temp
 
 int0: ldi temp,$01
 	out portb, temp
