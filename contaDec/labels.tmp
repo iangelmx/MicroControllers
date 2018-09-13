@@ -1,0 +1,23 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>20</LINE></reset>
+  <ovf><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>80</LINE></ovf>
+  <pcm><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>41</LINE></pcm>
+  <display><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>55</LINE></display>
+  <lazo><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>47</LINE></lazo>
+  <delay_1s><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>99</LINE></delay_1s>
+  <cont_uni><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>62</LINE></cont_uni>
+  <cont_dec><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>68</LINE></cont_dec>
+  <cont_reset><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>75</LINE></cont_reset>
+  <muxdos><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>90</LINE></muxdos>
+  <lazo32><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>100</LINE></lazo32>
+  <lazo31><FILE>C:\Users\Coraje180\Desktop\contaDec\contaDec.asm</FILE><LINE>101</LINE></lazo31>
+ </LABELS>
+</ASSEMBLER_INFO>
