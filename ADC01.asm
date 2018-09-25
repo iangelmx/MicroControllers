@@ -18,7 +18,7 @@ reset: ldi temp, $ff
 	sts adcsra, temp
 
 	ldi temp, $08
-	stws didr0, temp ; Ya terminamos de configurar el ADC
+	sts didr0, temp ; Ya terminamos de configurar el ADC
 
 	sei
 
@@ -26,4 +26,5 @@ main: rjmp main
 
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
-	out portb ; Sacamos a puerto B el resultado.
+	out portb, temp ; Sacamos a puerto B el resultado.
+	reti
