@@ -7,8 +7,12 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC01.asm</FILE><LINE>11</LINE></reset>
-  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC01.asm</FILE><LINE>28</LINE></fin_conv>
-  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC01.asm</FILE><LINE>25</LINE></main>
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>16</LINE></reset>
+  <ini_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>40</LINE></ini_conv>
+  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>47</LINE></fin_conv>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>34</LINE></main>
+  <delay_100ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>51</LINE></delay_100ms>
+  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>53</LINE></lazo2>
+  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\ADC_int0.asm</FILE><LINE>55</LINE></lazo1>
  </LABELS>
 </ASSEMBLER_INFO>

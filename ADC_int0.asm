@@ -1,4 +1,4 @@
-	;Se hizo con free_running
+	;Se hizo con free_running y esta es con INT_0
 	.include "m48def.inc"
 	.def temp = r16
 	.def cont1 = r17
@@ -7,6 +7,7 @@
 	.org 0
 
 	rjmp reset
+	rjmp ini_conv
 
 	.org $015
 	rjmp fin_conv
@@ -20,26 +21,30 @@ reset: ldi temp, $ff
 	ldi temp, $63 ; Para configurar el admux, 6 para recargarlo a la izq y 3 
 	sts admux, temp  ;Se manda la configuración al ADC 
 	
-	; ANTES: ldi temp, $eb ; E para la parte Alta y B para la parte baja
-	ldi temp, $cb ; C para la parte Alta y B para la parte baja
+	ldi temp, $eb ; E para la parte Alta y B para la parte baja
 	sts adcsra, temp
+
+	ldi temp, $02
+	sts adcsrb, temp ; Se selecciona la interrupción externa
 
 	ldi temp, $08
 	sts didr0, temp ; Ya terminamos de configurar el ADC
 
+	ldi temp, $02
+	sts eicra, temp
+	ldi temp, $01
+	out eimsk, temp
+
 	sei
 
-main: ;NUEVO PAR AEL EJEMPLO DEL PULSO ACTIVADOR
-	in temp, pind; leemos el puerto d
-	cpi temp, $fb ; restamos para comparar
-	breq ini_conv
+main:
 	rjmp main
 
 ini_conv: ;NUEVO PARA EL EJEMPLO DEL PULSO
-	recall delay_100ms
-	ldi temp, $cb
-	sts adcsra, temp
-	rjmp main
+	rcall delay_100ms
+	ldi temp, $01
+	sts eifr, temp
+	reti
 
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
