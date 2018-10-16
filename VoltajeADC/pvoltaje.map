@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm Thu Oct 11 19:56:25 2018
+AVRASM ver. 2.0.28  C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm Tue Oct 16 16:54:37 2018
 
 
 EQU  signature_000 0000001e
@@ -677,15 +677,15 @@ DEF  cent_aux     r23
 DEF  mux          r24
 DEF  raux         r25
 CSEG reset        00000016
-CSEG ovf          0000006f
-CSEG fin_conv     0000003a
-CSEG pcm          0000002e
-CSEG display      0000008b
-CSEG lazo         00000033
-CSEG main         00000039
-CSEG bin2bcd16    00000056
-CSEG bbcdx_1      0000005b
-CSEG bbcdx_2      00000063
-CSEG bbcdx_3      00000064
-CSEG muxdos       0000007d
-CSEG muxtres      00000084
+CSEG ovf          0000006c
+CSEG fin_conv     00000039
+CSEG pcm          0000002d
+CSEG display      00000088
+CSEG lazo         00000032
+CSEG main         00000038
+CSEG bin2bcd16    00000053
+CSEG bbcdx_1      00000058
+CSEG bbcdx_2      00000060
+CSEG bbcdx_3      00000061
+CSEG muxdos       0000007a
+CSEG muxtres      00000081

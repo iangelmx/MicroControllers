@@ -56,7 +56,7 @@ reset: ldi temp,$7F
 	sts adcsra, temp
 	ldi temp, $08
 	sts didr0, temp ; Ya terminamos de configurar el ADC
-	sei   ;esto lo movi
+	;sei   ;esto lo movi
 	
 
 
@@ -83,8 +83,8 @@ main:
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	mov r10,temp
-	ldi temp, $FF
-	mov r10, temp
+	;ldi temp, $FF
+	;mov r10, temp
 	ldi temp, $C4
 	mov r11, temp
 	mul r10, r11
