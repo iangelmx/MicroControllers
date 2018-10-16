@@ -17,6 +17,7 @@
 	.def cent_aux = r23
 	.def mux = r24
 	.def Raux = r25
+	
 
 	;///////////////
 	.cseg
@@ -41,7 +42,7 @@ reset: ldi temp,$7F
 	;Configurar Timer0 en OVF
 	ldi temp,$00
 	out tccr0a,temp
-	ldi temp,$02
+	ldi temp,$02 ;///
 	out tccr0b,temp
 	ldi temp,$01
 	sts timsk0,temp
@@ -55,7 +56,7 @@ reset: ldi temp,$7F
 	sts adcsra, temp
 	ldi temp, $08
 	sts didr0, temp ; Ya terminamos de configurar el ADC
-	sei
+	sei   ;esto lo movi
 	
 
 
@@ -74,13 +75,47 @@ lazo:
 	 brne lazo
 ;///////////////////
 
+	sei
 
 main: 
 	rjmp main
 
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
-	out portb, temp ; Sacamos a puerto B el resultado.
+	mov r10,temp
+	ldi temp, $FF
+	mov r10, temp
+	ldi temp, $C4
+	mov r11, temp
+	mul r10, r11
+	mov fbinH, r1
+	mov fbinL, r0
+	rcall bin2BCD16
+
+	mov Raux,tBCD1
+
+	lsl Raux	
+	lsl Raux
+	lsl Raux
+	lsl Raux
+
+	lsr Raux
+	lsr Raux
+	lsr Raux
+	lsr Raux
+
+	lsr tBCD1
+	lsr tBCD1
+	lsr tBCD1
+	lsr tBCD1
+
+	mov uni_aux, Raux
+	mov dece_aux, tBCD1
+	mov cent_aux, tBCD2	
+
+
+	;out portb, temp ; Sacamos a puerto B el resultado.
+
 	reti
 
 
@@ -125,27 +160,6 @@ bBCDx_3:
 
 
 ovf: 
-	mov Raux,tBCD1
-
-	lsl Raux	
-	lsl Raux
-	lsl Raux
-	lsl Raux
-
-	lsr Raux
-	lsr Raux
-	lsr Raux
-	lsr Raux
-
-	lsr tBCD1
-	lsr tBCD1
-	lsr tBCD1
-	lsr tBCD1
-
-	mov uni_aux, Raux
-	mov dece_aux, tBCD1
-	mov cent_aux, tBCD2	
-
 	push temp
 	ldi temp,$00
 	out portc,temp

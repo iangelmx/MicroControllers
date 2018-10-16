@@ -7,18 +7,18 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-  <reset><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>33</LINE></reset>
-  <ovf><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>127</LINE></ovf>
-  <fin_conv><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>82</LINE></fin_conv>
-  <pcm><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>63</LINE></pcm>
-  <display><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>190</LINE></display>
-  <lazo><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>69</LINE></lazo>
-  <main><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>78</LINE></main>
-  <bin2BCD16><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>88</LINE></bin2BCD16>
-  <bBCDx_1><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>95</LINE></bBCDx_1>
-  <bBCDx_2><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>104</LINE></bBCDx_2>
-  <bBCDx_3><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>106</LINE></bBCDx_3>
-  <muxdos><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>167</LINE></muxdos>
-  <muxtres><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>176</LINE></muxtres>
+  <reset><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>34</LINE></reset>
+  <ovf><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>162</LINE></ovf>
+  <fin_conv><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>84</LINE></fin_conv>
+  <pcm><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>64</LINE></pcm>
+  <display><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>204</LINE></display>
+  <lazo><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>70</LINE></lazo>
+  <main><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>80</LINE></main>
+  <bin2BCD16><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>123</LINE></bin2BCD16>
+  <bBCDx_1><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>130</LINE></bBCDx_1>
+  <bBCDx_2><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>139</LINE></bBCDx_2>
+  <bBCDx_3><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>141</LINE></bBCDx_3>
+  <muxdos><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>181</LINE></muxdos>
+  <muxtres><FILE>C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm</FILE><LINE>190</LINE></muxtres>
  </LABELS>
 </ASSEMBLER_INFO>
