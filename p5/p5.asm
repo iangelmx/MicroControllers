@@ -1,4 +1,4 @@
-	.include "m48def".inc
+	.include "m48def.inc"
 	.def temp = r16
 	.def uni = r17
 	.def dece = r18
@@ -6,6 +6,8 @@
 	.def uni_aux = r20
 	.def dece_aux = r21
 	.def cent_aux = r22
+	.def mux= r23
+	.def zero = r24
 
 	.cseg
 	
@@ -13,13 +15,13 @@
 	rjmp reset
 
 	.org $01
-	rjmp INT01; Es el que detectar√° los pulsos ascendentes
+	rjmp INT01; Es el que detectar· los pulsos ascendentes
 
 	.org $00B
-	rjmp compa ;Es el que har√° la interrupci√≥n cada segundo.
+	rjmp compa ;Es el que har· la interrupciÛn cada segundo.
 
 	.org $010
-	rjmp ovf ;Es el que multiplexar√°
+	rjmp ovf ;Es el que multiplexar·
 
 reset: ldi temp, $7F
 	out ddrb, temp ;se usa ddrb cuando se configura como salida. Se usa port para que sea entrada
@@ -30,13 +32,13 @@ reset: ldi temp, $7F
 	ldi temp, $07
 	out ddrc, temp ;onfiguramos el puerto C como salida 3 bits 0 y 1
 	
-	ldi temp, $ob
+	ldi temp, $0b
 	sts tccr1b, temp ; COnfigura el CTC con prescalador a 64
 
 	ldi temp, $3d
-	sts ocriah, temp
+	sts ocr1ah, temp
 	ldi temp, $09
-	sts ocrial, temp
+	sts ocr1al, temp
 
 	ldi temp, $02
 	sts timsk1, temp; Se configura el mask, interrupcion por comparacion
@@ -65,10 +67,10 @@ lazo:
 	 brne lazo
 	 ldi uni, $00
 	 ldi dece, $00
-	 ldi cen, $00
+	 ldi cent, $00
 	 ldi uni_aux, $00
 	 ldi dece_aux, $00
-	 ldi cen_aux, $00
+	 ldi cent_aux, $00
 ;;;;;; FIN DEL RESET
 
 display: .db $40,$79,$24,$30,$19,$12,$02,$78,$00,$10
@@ -81,23 +83,56 @@ INT01: inc uni
 	cpi uni, $0A
 	brne finMux
 	ldi uni, $00
-	inc dec
-	cpi dec, $0A
+	inc dece
+	cpi dece, $0A
 	brne finMux
-	ldi dec, $00
+	ldi dece, $00
 	inc cent
 	cpi cent, $0A
 	brne finMux
 	ldi uni ,$0A
-	ldi dec ,$0A
+	ldi dece ,$0A
 	ldi cent ,$0A
 finMux: reti
 
 
 compa: mov uni_aux, uni
 	mov dece_aux, dece
-	mov cen_aux, cen
+	mov cent_aux, cent
 	ldi uni, $00
 	ldi dece, $00
-	ldi cen, $00
+	ldi cent, $00
 	reti
+
+ovf: out portc,zero
+	 ldi temp,$07
+	 out portc,temp
+	 cpi mux,$06
+	 breq muxdos
+	 cpi mux,$05
+	 breq muxtres
+	mov xl,cent
+	 ld temp,x
+	 out portb,temp
+	 out portc,mux
+	 ldi mux,$06
+	 pop temp
+	 reti
+
+muxdos:
+	 mov xl,uni
+	 ld temp,x
+	 out portb,temp
+	 out portc,mux
+	 ldi mux,$05
+	 pop temp
+	 reti
+
+muxtres:
+	mov xl,dece
+	 ld temp,x
+	 out portb,temp
+	 out portc,mux
+	 ldi mux,$03
+	 pop temp
+	 reti
