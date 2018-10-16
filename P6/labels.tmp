@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>34</LINE></reset>
+  <ovf><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>209</LINE></ovf>
+  <fin_conv><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>89</LINE></fin_conv>
+  <pcm><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>69</LINE></pcm>
+  <display><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>263</LINE></display>
+  <lazo><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>75</LINE></lazo>
+  <main><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>85</LINE></main>
+  <Voltaje><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>134</LINE></Voltaje>
+  <Porcentaje><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>100</LINE></Porcentaje>
+  <Div><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>249</LINE></Div>
+  <bin2BCD16><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>170</LINE></bin2BCD16>
+  <bBCDx_1><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>177</LINE></bBCDx_1>
+  <bBCDx_2><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>186</LINE></bBCDx_2>
+  <bBCDx_3><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>188</LINE></bBCDx_3>
+  <muxdos><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>228</LINE></muxdos>
+  <muxtres><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>237</LINE></muxtres>
+  <True><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>251</LINE></True>
+  <fin><FILE>C:\Users\Coraje180\Desktop\P6\p6.asm</FILE><LINE>257</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>
