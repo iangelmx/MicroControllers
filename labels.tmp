@@ -7,11 +7,8 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-  <delay_50ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>194</LINE></delay_50ms>
-  <delay_2Punto5ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>179</LINE></delay_2Punto5ms>
-  <aqui><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>176</LINE></aqui>
-  <lazo3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>181</LINE></lazo3>
-  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>197</LINE></lazo1>
-  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>195</LINE></lazo2>
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>11</LINE></reset>
+  <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>33</LINE></recibe>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>31</LINE></main>
  </LABELS>
 </ASSEMBLER_INFO>
