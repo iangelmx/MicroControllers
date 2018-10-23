@@ -103,13 +103,16 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	reti
 
 
-Porcentaje:	ldi temp, 215
+Porcentaje:	ldi temp, 39; Tenía 215 y cambié a 39
 	mov r11, temp
 	mul r10, r11
-	rcall Div
-	mov fbinH, YH 
-	mov fbinL, YL
+	;Ahora sólo se tiene que mover a los registros de bin2BCD
+
+	;rcall Div
+	mov fbinH, r1
+	mov fbinL, r0
 	rcall bin2BCD16
+	;Falta darle una salida en 1 para habilitar el punto decimal de Displays.
 
 
 	mov Raux,tBCD1
