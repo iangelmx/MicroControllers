@@ -36,8 +36,14 @@ reset: ldi temp,$7F
 	ldi temp,$07
 	out ddrc,temp ;Configuramos C2-C0 como salidas
 	ldi temp, $08
-	out portc,temp ;C3 entrada de pote
+	out portc,temp ;C3 entradas (pote)
+	ldi temp, $01
+	out portd, temp ;D0 boton
+	ldi temp, $06 ; D1 y d2 como salidas para Punto flot
+	out ddrd, temp 
 	ldi mux,$06
+	ldi temp, $00
+	mov r12, temp
 
 	;Configurar Timer0 en OVF
 	ldi temp,$00
@@ -48,16 +54,21 @@ reset: ldi temp,$7F
 	sts timsk0,temp
 
 
+
 	;Configura ADC
-	ldi temp, $63 ; Para configurar el admux, 6 para recargarlo a la izq y 3 
-	sts admux, temp  ;Se manda la configuración al ADC 	
+	;ldi temp, $63 ; Para configurar el admux, 6 para recargarlo a la izq y 3 
+	;sts admux, temp  ;Se manda la configuración al ADC 
+
+	ldi temp, $e3 ; Para habilitar la referencia interna
+	sts admux, temp  ;Se manda la configuración al ADC 
+		
  	ldi temp, $eb ; E para la parte Alta y B para la parte baja
 	;ldi temp, $cb   ; C para la parte Alta y B para la parte baja
 	sts adcsra, temp
 	ldi temp, $08
 	sts didr0, temp ; Ya terminamos de configurar el ADC
 	;sei   ;esto lo movi
-	
+		
 
 
 ;Mover constantes de Mem. de P a MD
@@ -82,15 +93,30 @@ main:
 
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
+	;ldi temp, 232
+	;lsr temp  ;prueba derecha
 	mov r10,temp
-	;ldi temp, $FF
+	;ldi temp, $FF  ;Prueba de 255
 	;mov r10, temp
-	ldi temp, $C4
+	in temp, pind
+	andi temp, $01
+	;cpi temp,$00 ;cambie 1 por 0
+	breq Voltaje
+	rcall Porcentaje
+	reti
+
+
+Porcentaje:	ldi temp, 39; Tenía 215 y cambié a 39
 	mov r11, temp
 	mul r10, r11
+	;Ahora sólo se tiene que mover a los registros de bin2BCD
+
+	;rcall Div
 	mov fbinH, r1
 	mov fbinL, r0
 	rcall bin2BCD16
+	;Falta darle una salida en 1 para habilitar el punto decimal de Displays.
+
 
 	mov Raux,tBCD1
 
@@ -112,12 +138,49 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	mov uni_aux, Raux
 	mov dece_aux, tBCD1
 	mov cent_aux, tBCD2	
+	ldi temp, $02 ; Para el punto decimal
+	out portd, temp
+	;out portb, temp ; Sacamos a puerto B el resultado.
+
+	ret
+
+
+Voltaje: 	ldi temp, $D7
+	mov r11, temp
+	mul r10, r11
+	mov fbinH, r1
+	mov fbinL, r0
+	rcall bin2BCD16
+		
+
+
+	mov Raux,tBCD1
+
+	lsl Raux	
+	lsl Raux
+	lsl Raux
+	lsl Raux
+
+	lsr Raux
+	lsr Raux
+	lsr Raux
+	lsr Raux
+
+	lsr tBCD1
+	lsr tBCD1
+	lsr tBCD1
+	lsr tBCD1
+
+	mov uni_aux, Raux
+	mov dece_aux, tBCD1
+	mov cent_aux, tBCD2	
+	ldi temp, $01 ; Para el punto decimal
+	out portd, temp
 
 
 	;out portb, temp ; Sacamos a puerto B el resultado.
 
 	reti
-
 
 
 bin2BCD16:
@@ -198,6 +261,19 @@ muxtres:
 
 
 ;////////////////
+
+Div: mov YL, r0
+	mov YH, r1
+True: sbiw YL, 23
+	;brmi fin
+	brpl fin
+	mov temp, r12
+	inc temp
+	mov r12, temp
+	rjmp True
+fin: ret
+
+
 
 
 

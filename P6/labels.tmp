@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>34</LINE></reset>
+  <ovf><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>225</LINE></ovf>
+  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>95</LINE></fin_conv>
+  <pcm><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>75</LINE></pcm>
+  <display><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>280</LINE></display>
+  <lazo><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>81</LINE></lazo>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>91</LINE></main>
+  <Voltaje><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>148</LINE></Voltaje>
+  <Porcentaje><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>109</LINE></Porcentaje>
+  <bin2BCD16><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>186</LINE></bin2BCD16>
+  <bBCDx_1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>193</LINE></bBCDx_1>
+  <bBCDx_2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>202</LINE></bBCDx_2>
+  <bBCDx_3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>204</LINE></bBCDx_3>
+  <muxdos><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>244</LINE></muxdos>
+  <muxtres><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>253</LINE></muxtres>
+  <Div><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>265</LINE></Div>
+  <True><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>267</LINE></True>
+  <fin><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm</FILE><LINE>274</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>

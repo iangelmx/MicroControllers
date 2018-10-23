@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\Coraje180\Desktop\VoltajeADC\Pvoltaje.asm Tue Oct 16 16:54:37 2018
+AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm Mon Oct 22 19:49:36 2018
 
 
 EQU  signature_000 0000001e
@@ -661,31 +661,8 @@ EQU  aciaddr      00000017
 EQU  twiaddr      00000018
 EQU  spmraddr     00000019
 EQU  int_vectors_size 0000001a
-EQU  atbcd0       0000000d
-EQU  atbcd2       0000000f
-DEF  tbcd0        r13
-DEF  tbcd1        r14
-DEF  tbcd2        r15
-DEF  fbinl        r16
-DEF  fbinh        r17
-DEF  cnt16a       r18
-DEF  tmp16a       r19
-DEF  temp         r20
-DEF  uni_aux      r21
-DEF  dece_aux     r22
-DEF  cent_aux     r23
-DEF  mux          r24
-DEF  raux         r25
-CSEG reset        00000016
-CSEG ovf          0000006c
-CSEG fin_conv     00000039
-CSEG pcm          0000002d
-CSEG display      00000088
-CSEG lazo         00000032
-CSEG main         00000038
-CSEG bin2bcd16    00000053
-CSEG bbcdx_1      00000058
-CSEG bbcdx_2      00000060
-CSEG bbcdx_3      00000061
-CSEG muxdos       0000007a
-CSEG muxtres      00000081
+DEF  temp         r16
+DEF  cte          r17
+CSEG reset        00000013
+CSEG recibe       00000020
+CSEG main         0000001f
