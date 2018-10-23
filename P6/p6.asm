@@ -39,6 +39,8 @@ reset: ldi temp,$7F
 	out portc,temp ;C3 entradas (pote)
 	ldi temp, $01
 	out portd, temp ;D0 boton
+	ldi temp, $06 ; D1 y d2 como salidas para Punto flot
+	out ddrd, temp 
 	ldi mux,$06
 	ldi temp, $00
 	mov r12, temp
@@ -135,6 +137,8 @@ Porcentaje:	ldi temp, 39; Tenía 215 y cambié a 39
 	mov uni_aux, Raux
 	mov dece_aux, tBCD1
 	mov cent_aux, tBCD2	
+	ldi temp, $02 ; Para el punto decimal
+	out portd, temp
 	;out portb, temp ; Sacamos a puerto B el resultado.
 
 	ret
@@ -169,6 +173,8 @@ Voltaje: 	ldi temp, $C4
 	mov uni_aux, Raux
 	mov dece_aux, tBCD1
 	mov cent_aux, tBCD2	
+	ldi temp, $01 ; Para el punto decimal
+	out portd, temp
 
 
 	;out portb, temp ; Sacamos a puerto B el resultado.
