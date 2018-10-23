@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\Coraje180\Desktop\P6\p6.asm Thu Oct 18 19:51:25 2018
+AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\P6\p6.asm Tue Oct 23 17:16:23 2018
 
 
 EQU  signature_000 0000001e
@@ -677,20 +677,20 @@ DEF  cent_aux     r23
 DEF  mux          r24
 DEF  raux         r25
 CSEG reset        00000016
-CSEG ovf          0000008f
-CSEG fin_conv     0000003d
-CSEG pcm          00000031
-CSEG display      000000b4
-CSEG lazo         00000036
-CSEG main         0000003c
-CSEG voltaje      0000005f
+CSEG ovf          00000092
+CSEG fin_conv     0000003f
+CSEG pcm          00000033
+CSEG display      000000b7
+CSEG lazo         00000038
+CSEG main         0000003e
+CSEG voltaje      00000060
 CSEG porcentaje   00000047
-CSEG div          000000ab
-CSEG bin2bcd16    00000076
-CSEG bbcdx_1      0000007b
-CSEG bbcdx_2      00000083
-CSEG bbcdx_3      00000084
-CSEG muxdos       0000009d
-CSEG muxtres      000000a4
-CSEG true         000000ad
-CSEG fin          000000b3
+CSEG bin2bcd16    00000079
+CSEG bbcdx_1      0000007e
+CSEG bbcdx_2      00000086
+CSEG bbcdx_3      00000087
+CSEG muxdos       000000a0
+CSEG muxtres      000000a7
+CSEG div          000000ae
+CSEG true         000000b0
+CSEG fin          000000b6

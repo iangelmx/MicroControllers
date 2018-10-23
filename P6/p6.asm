@@ -99,8 +99,9 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	;ldi temp, $FF  ;Prueba de 255
 	;mov r10, temp
 	in temp, pind
-	cpi temp,$00 ;cambie 1 por 0
-	brne Voltaje
+	andi temp, $01
+	;cpi temp,$00 ;cambie 1 por 0
+	breq Voltaje
 	rcall Porcentaje
 	reti
 
@@ -144,7 +145,7 @@ Porcentaje:	ldi temp, 39; Tenía 215 y cambié a 39
 	ret
 
 
-Voltaje: 	ldi temp, $C4
+Voltaje: 	ldi temp, $D7
 	mov r11, temp
 	mul r10, r11
 	mov fbinH, r1
