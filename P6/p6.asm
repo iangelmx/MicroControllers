@@ -54,8 +54,12 @@ reset: ldi temp,$7F
 
 
 	;Configura ADC
-	ldi temp, $63 ; Para configurar el admux, 6 para recargarlo a la izq y 3 
-	sts admux, temp  ;Se manda la configuración al ADC 	
+	;ldi temp, $63 ; Para configurar el admux, 6 para recargarlo a la izq y 3 
+	;sts admux, temp  ;Se manda la configuración al ADC 
+
+	ldi temp, $e3 ; Para habilitar la referencia interna
+	sts admux, temp  ;Se manda la configuración al ADC 
+		
  	ldi temp, $eb ; E para la parte Alta y B para la parte baja
 	;ldi temp, $cb   ; C para la parte Alta y B para la parte baja
 	sts adcsra, temp
@@ -87,6 +91,8 @@ main:
 
 
 fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
+	;ldi temp, 232
+	;lsr temp  ;prueba derecha
 	mov r10,temp
 	;ldi temp, $FF  ;Prueba de 255
 	;mov r10, temp
@@ -97,7 +103,7 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	reti
 
 
-Porcentaje:	ldi temp, $C4
+Porcentaje:	ldi temp, 215
 	mov r11, temp
 	mul r10, r11
 	rcall Div
@@ -248,8 +254,9 @@ muxtres:
 
 Div: mov YL, r0
 	mov YH, r1
-True: sbiw YL, $05
-	brmi fin
+True: sbiw YL, 23
+	;brmi fin
+	brpl fin
 	mov temp, r12
 	inc temp
 	mov r12, temp
