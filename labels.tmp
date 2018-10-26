@@ -7,8 +7,22 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
+
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>30</LINE></reset>
+  <INT01><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>160</LINE></INT01>
+  <compa><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>147</LINE></compa>
+  <ovf><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>107</LINE></ovf>
+  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>177</LINE></fin_conv>
+  <pcm><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>89</LINE></pcm>
+  <display><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>182</LINE></display>
+  <lazo><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>95</LINE></lazo>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>104</LINE></main>
+  <muxdos><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>125</LINE></muxdos>
+  <muxtres><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>134</LINE></muxtres>
+
   <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>11</LINE></reset>
   <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>33</LINE></recibe>
   <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>31</LINE></main>
+
  </LABELS>
 </ASSEMBLER_INFO>
