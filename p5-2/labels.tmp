@@ -1,0 +1,21 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>27</LINE></reset>
+  <INT01><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>137</LINE></INT01>
+  <compa><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>124</LINE></compa>
+  <ovf><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>84</LINE></ovf>
+  <pcm><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>66</LINE></pcm>
+  <display><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>155</LINE></display>
+  <lazo><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>72</LINE></lazo>
+  <main><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>81</LINE></main>
+  <muxdos><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>102</LINE></muxdos>
+  <muxtres><FILE>C:\Users\Coraje180\Desktop\p5-2\p5ver2.asm</FILE><LINE>111</LINE></muxtres>
+ </LABELS>
+</ASSEMBLER_INFO>
