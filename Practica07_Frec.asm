@@ -179,4 +179,4 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	reti
 
 
-display: .db $40,$79,$24,$30,$19,$12,$02,$78,$00,$10
+display: .db $80,$F1,$44,$60,$31, $22, $02, $F0, $00,$20

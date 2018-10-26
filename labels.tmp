@@ -7,11 +7,16 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-  <delay_50ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>194</LINE></delay_50ms>
-  <delay_2Punto5ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>179</LINE></delay_2Punto5ms>
-  <aqui><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>176</LINE></aqui>
-  <lazo3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>181</LINE></lazo3>
-  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>197</LINE></lazo1>
-  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_example.asm</FILE><LINE>195</LINE></lazo2>
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>30</LINE></reset>
+  <INT01><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>160</LINE></INT01>
+  <compa><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>147</LINE></compa>
+  <ovf><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>107</LINE></ovf>
+  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>177</LINE></fin_conv>
+  <pcm><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>89</LINE></pcm>
+  <display><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>182</LINE></display>
+  <lazo><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>95</LINE></lazo>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>104</LINE></main>
+  <muxdos><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>125</LINE></muxdos>
+  <muxtres><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>134</LINE></muxtres>
  </LABELS>
 </ASSEMBLER_INFO>
