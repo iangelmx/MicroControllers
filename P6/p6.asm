@@ -39,6 +39,8 @@ reset: ldi temp,$7F
 	out portc,temp ;C3 entradas (pote)
 	ldi temp, $01
 	out portd, temp ;D0 boton
+	ldi temp, $06 ; D1 y d2 como salidas para Punto flot
+	out ddrd, temp 
 	ldi mux,$06
 	ldi temp, $00
 	mov r12, temp
@@ -97,19 +99,23 @@ fin_conv: LDS temp, adch ; Leemos el registro de resultados del ADC
 	;ldi temp, $FF  ;Prueba de 255
 	;mov r10, temp
 	in temp, pind
-	cpi temp,$00 ;cambie 1 por 0
-	brne Voltaje
+	andi temp, $01
+	;cpi temp,$00 ;cambie 1 por 0
+	breq Voltaje
 	rcall Porcentaje
 	reti
 
 
-Porcentaje:	ldi temp, 215
+Porcentaje:	ldi temp, 39; Tenía 215 y cambié a 39
 	mov r11, temp
 	mul r10, r11
-	rcall Div
-	mov fbinH, YH 
-	mov fbinL, YL
+	;Ahora sólo se tiene que mover a los registros de bin2BCD
+
+	;rcall Div
+	mov fbinH, r1
+	mov fbinL, r0
 	rcall bin2BCD16
+	;Falta darle una salida en 1 para habilitar el punto decimal de Displays.
 
 
 	mov Raux,tBCD1
@@ -132,12 +138,14 @@ Porcentaje:	ldi temp, 215
 	mov uni_aux, Raux
 	mov dece_aux, tBCD1
 	mov cent_aux, tBCD2	
+	ldi temp, $02 ; Para el punto decimal
+	out portd, temp
 	;out portb, temp ; Sacamos a puerto B el resultado.
 
 	ret
 
 
-Voltaje: 	ldi temp, $C4
+Voltaje: 	ldi temp, $D7
 	mov r11, temp
 	mul r10, r11
 	mov fbinH, r1
@@ -166,6 +174,8 @@ Voltaje: 	ldi temp, $C4
 	mov uni_aux, Raux
 	mov dece_aux, tBCD1
 	mov cent_aux, tBCD2	
+	ldi temp, $01 ; Para el punto decimal
+	out portd, temp
 
 
 	;out portb, temp ; Sacamos a puerto B el resultado.
