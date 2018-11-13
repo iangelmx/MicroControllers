@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <delay_100ms><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>384</LINE></delay_100ms>
+  <delay_1ms><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>412</LINE></delay_1ms>
+  <display><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>446</LINE></display>
+  <carga><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>111</LINE></carga>
+  <main><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>126</LINE></main>
+  <teclado><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>131</LINE></teclado>
+  <delay_2us><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>440</LINE></delay_2us>
+  <fila_0><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>171</LINE></fila_0>
+  <fila_4><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>175</LINE></fila_4>
+  <fila_8><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>179</LINE></fila_8>
+  <fila_c><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>183</LINE></fila_c>
+  <sigue><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>158</LINE></sigue>
+  <teclado2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>187</LINE></teclado2>
+  <columna_0><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>235</LINE></columna_0>
+  <columna_1><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>240</LINE></columna_1>
+  <columna_2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>245</LINE></columna_2>
+  <columna_3><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>250</LINE></columna_3>
+  <sigue2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>206</LINE></sigue2>
+  <al><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>221</LINE></al>
+  <mw><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>224</LINE></mw>
+  <xz><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>227</LINE></xz>
+  <num><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>230</LINE></num>
+  <write_lcd><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>256</LINE></write_lcd>
+  <linea_2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>303</LINE></linea_2>
+  <clear><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>339</LINE></clear>
+  <continue_write><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>266</LINE></continue_write>
+  <right_shift><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>362</LINE></right_shift>
+  <lazo1><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>364</LINE></lazo1>
+  <left_shift><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>370</LINE></left_shift>
+  <lazo2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>372</LINE></lazo2>
+  <delay_200ms><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>379</LINE></delay_200ms>
+  <esp1><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>386</LINE></esp1>
+  <esp2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>388</LINE></esp2>
+  <esp1ms_1><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>414</LINE></esp1ms_1>
+  <esp1ms_2><FILE>C:\Users\Coraje180\Desktop\lcd.asm</FILE><LINE>416</LINE></esp1ms_2>
+ </LABELS>
+</ASSEMBLER_INFO>
