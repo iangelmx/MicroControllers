@@ -3,7 +3,8 @@
 	.def cont1 = r17
 	.def cont2 = r18
 	.def cursor = r19
-	.def aux = r20
+	;.def aux = r20
+	.def linea = r20
 	.def char = r21
 	.def aux2 = r22
 	
@@ -95,6 +96,7 @@ reset:
 	cbi portd, 2	;
 	rcall delay_1ms
 	rcall clear
+	ldi linea, $00
 	;rcall returnHome
 	sei
 
@@ -248,7 +250,37 @@ lazo2:
 	brne lazo3
 	ret
 
+recibe:
+	lds char, udr0
+	inc cursor
+	cpi linea, 1
+	breq valida32
+	cpi cursor, 17
+	breq switchToLineTwo
+	rcall sendChar
+	reti
 
+valida32:
+	cpi cursor, 33
+	breq switchToLineOne
+	rcall sendChar
+	reti
+
+switchToLineTwo:
+	ldi linea, $01
+	rcall segundaLinea
+	rcall sendChar
+	reti
+
+switchToLineOne:
+	ldi linea, $00
+	ldi cursor, $00
+	rcall clear
+	rcall returnHome
+	rcall sendChar
+	reti
+
+/*
 recibe: lds char, udr0;LDS porque es extendido, se lee el dato
 	inc cursor
 	mov aux, cursor
@@ -281,4 +313,4 @@ resetCont:
 	;sts udr0, temp
 	;reti
 
-
+*/
