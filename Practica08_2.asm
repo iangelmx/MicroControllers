@@ -155,7 +155,8 @@ sendChar:
 	rcall delay_1ms
 
 	;::: Set DDRAM address
-	/*
+	
+primeraLinea:
 	ldi temp, $80	; 1er linea; 2a linea -> D7 habría que mandarle un 1
 	out portd,temp	;
 	sbi portd,2		;Parte alta
@@ -168,7 +169,25 @@ sendChar:
 	nop				;
 	cbi portd, 2	;
 	rcall delay_1ms
-	*/
+	ret
+
+
+	;::: Set DDRAM address
+	
+segundaLinea:
+	ldi temp, $C0	; 1er linea; 2a linea -> D7 habría que mandarle un 1
+	out portd,temp	;
+	sbi portd,2		;Parte alta
+	nop				;
+	cbi portd,2
+	nop
+	ldi temp, $10	; posición del cursor
+	out portd,temp	;Parte baja
+	sbi portd, 2	;
+	nop				;
+	cbi portd, 2	;
+	rcall delay_1ms
+	ret
 
 
 main:
@@ -219,6 +238,7 @@ valida39:
 	cpi aux, $27 ;aux=aux-39
 	breq valida4F
 	ldi cursor, $28 ; cursor=40
+	rcall segundaLinea
 	rcall sendChar
 	reti
 valida4F:
@@ -229,6 +249,7 @@ valida4F:
 	reti
 resetCont:
 	ldi cursor, $28 ; cursor = 40
+	rcall primeraLinea
 	rcall sendChar
 	reti
 	;Transmitimos: a pc

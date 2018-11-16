@@ -8,16 +8,18 @@
  </INCLUDED_FILES>
  <LABELS>
   <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>17</LINE></reset>
-  <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>210</LINE></recibe>
-  <delay_100ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>191</LINE></delay_100ms>
-  <delay_1ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>177</LINE></delay_1ms>
+  <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>229</LINE></recibe>
+  <delay_100ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>210</LINE></delay_100ms>
+  <delay_1ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>196</LINE></delay_1ms>
   <sendChar><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>96</LINE></sendChar>
-  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>174</LINE></main>
-  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>179</LINE></lazo1>
-  <lazo3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>193</LINE></lazo3>
-  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>195</LINE></lazo2>
-  <valida39><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>217</LINE></valida39>
-  <valida4F><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>224</LINE></valida4F>
-  <resetCont><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>230</LINE></resetCont>
+  <primeraLinea><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>159</LINE></primeraLinea>
+  <segundaLinea><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>177</LINE></segundaLinea>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>193</LINE></main>
+  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>198</LINE></lazo1>
+  <lazo3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>212</LINE></lazo3>
+  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>214</LINE></lazo2>
+  <valida39><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>236</LINE></valida39>
+  <valida4F><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>244</LINE></valida4F>
+  <resetCont><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>250</LINE></resetCont>
  </LABELS>
 </ASSEMBLER_INFO>
