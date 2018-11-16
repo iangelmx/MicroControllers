@@ -39,6 +39,7 @@ reset:
 	out ddrd, temp
 
 	rcall delay_100ms
+	rcall delay_100ms
 
 	;::: Function set Inicial
 	ldi temp, $20
@@ -57,7 +58,8 @@ reset:
 	nop				;
 	cbi portd,2
 	nop
-	ldi temp, $00	; el 1 habilita el SRAM el 8 es la parte baja de la letra
+	;ldi temp, $00	; el 1 habilita el SRAM el 8 es la parte baja de la letra
+	ldi temp, $80	; el 1 habilita el SRAM el 8 es la parte baja de la letra
 	out portd,temp	;Parte baja
 	sbi portd, 2	;
 	nop				;
@@ -92,6 +94,12 @@ reset:
 	nop				;
 	cbi portd, 2	;
 	rcall delay_1ms
+	rcall clear
+	;rcall returnHome
+	sei
+
+main:
+	rjmp main
 
 sendChar:
 	;para esta práctica se requiere que el caracter 
@@ -138,10 +146,11 @@ sendChar:
 	nop				;
 	cbi portd, 2	;
 	rcall delay_1ms
+	ret
 
 
 	;::: Return Home
-	ldi temp, $00	; el 1 habilita el SRAM el 4 es la parte alta de la letra
+returnHome:	ldi temp, $00	; el 1 habilita el SRAM el 4 es la parte alta de la letra
 	out portd,temp	;
 	sbi portd,2		;Parte alta
 	nop				;
@@ -153,6 +162,7 @@ sendChar:
 	nop				;
 	cbi portd, 2	;
 	rcall delay_1ms
+	ret
 
 	;::: Set DDRAM address
 	
@@ -181,7 +191,7 @@ segundaLinea:
 	nop				;
 	cbi portd,2
 	nop
-	ldi temp, $10	; posición del cursor
+	ldi temp, $00	; posición del cursor
 	out portd,temp	;Parte baja
 	sbi portd, 2	;
 	nop				;
@@ -189,9 +199,22 @@ segundaLinea:
 	rcall delay_1ms
 	ret
 
-
-main:
-	rjmp main
+	;::: Set DDRAM address
+	
+clear:
+	ldi temp, $00	; 1er linea; 2a linea -> D7 habría que mandarle un 1
+	out portd,temp	;
+	sbi portd,2		;Parte alta
+	nop				;
+	cbi portd,2
+	nop
+	ldi temp, $10	; posición del cursor
+	out portd,temp	;Parte baja
+	sbi portd, 2	;
+	nop				;
+	cbi portd, 2	;
+	rcall delay_1ms
+	ret
 
 delay_1ms:
 	ldi cont1, 200
@@ -229,13 +252,14 @@ lazo2:
 recibe: lds char, udr0;LDS porque es extendido, se lee el dato
 	inc cursor
 	mov aux, cursor
-	cpi aux, $11 ;Se le resta 17
+	cpi aux, 17 ;Se le resta 17
 	breq valida39
 	rcall sendChar
+	rcall clear
 	reti
 valida39: 
 	mov aux, cursor
-	cpi aux, $27 ;aux=aux-39
+	cpi aux, 33 ;aux=aux-39
 	breq valida4F
 	ldi cursor, $28 ; cursor=40
 	rcall segundaLinea
@@ -243,13 +267,14 @@ valida39:
 	reti
 valida4F:
 	mov aux, cursor
-	cpi aux, $50 ; aux=aux-80
+	cpi aux, $38 ; aux=aux-80
 	breq resetCont
 	rcall sendChar
 	reti
 resetCont:
-	ldi cursor, $28 ; cursor = 40
-	rcall primeraLinea
+	ldi cursor, 0 ; cursor = 40
+	rcall clear
+	;rcall returnHome
 	rcall sendChar
 	reti
 	;Transmitimos: a pc

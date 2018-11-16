@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm Thu Nov 15 19:09:32 2018
+AVRASM ver. 2.0.28  C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm Thu Nov 15 19:54:50 2018
 
 
 EQU  signature_000 0000001e
@@ -669,16 +669,18 @@ DEF  aux          r20
 DEF  char         r21
 DEF  aux2         r22
 CSEG reset        00000013
-CSEG recibe       000000a8
-CSEG delay_100ms  0000009a
-CSEG delay_1ms    0000008f
-CSEG sendchar     0000004c
-CSEG primeralinea 00000074
-CSEG segundalinea 00000081
-CSEG main         0000008e
-CSEG lazo1        00000090
-CSEG lazo3        0000009b
-CSEG lazo2        0000009c
-CSEG valida39     000000b0
-CSEG valida4f     000000b7
-CSEG resetcont    000000bc
+CSEG recibe       000000ba
+CSEG delay_100ms  000000ac
+CSEG delay_1ms    000000a1
+CSEG clear        00000094
+CSEG main         0000004f
+CSEG sendchar     00000050
+CSEG returnhome   0000006d
+CSEG primeralinea 0000007a
+CSEG segundalinea 00000087
+CSEG lazo1        000000a2
+CSEG lazo3        000000ad
+CSEG lazo2        000000ae
+CSEG valida39     000000c3
+CSEG valida4f     000000ca
+CSEG resetcont    000000cf
