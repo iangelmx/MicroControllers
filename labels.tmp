@@ -7,22 +7,21 @@
   <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
  </INCLUDED_FILES>
  <LABELS>
-
-  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>30</LINE></reset>
-  <INT01><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>160</LINE></INT01>
-  <compa><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>147</LINE></compa>
-  <ovf><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>107</LINE></ovf>
-  <fin_conv><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>177</LINE></fin_conv>
-  <pcm><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>89</LINE></pcm>
-  <display><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>182</LINE></display>
-  <lazo><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>95</LINE></lazo>
-  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>104</LINE></main>
-  <muxdos><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>125</LINE></muxdos>
-  <muxtres><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica07_Frec.asm</FILE><LINE>134</LINE></muxtres>
-
-  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>11</LINE></reset>
-  <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>33</LINE></recibe>
-  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\LCD_echoClase.asm</FILE><LINE>31</LINE></main>
-
+  <reset><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>18</LINE></reset>
+  <recibe><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>253</LINE></recibe>
+  <delay_100ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>235</LINE></delay_100ms>
+  <delay_1ms><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>221</LINE></delay_1ms>
+  <clear><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>206</LINE></clear>
+  <main><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>103</LINE></main>
+  <sendChar><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>106</LINE></sendChar>
+  <returnHome><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>155</LINE></returnHome>
+  <primeraLinea><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>171</LINE></primeraLinea>
+  <segundaLinea><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>189</LINE></segundaLinea>
+  <lazo1><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>223</LINE></lazo1>
+  <lazo3><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>237</LINE></lazo3>
+  <lazo2><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>239</LINE></lazo2>
+  <valida32><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>263</LINE></valida32>
+  <switchToLineTwo><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>269</LINE></switchToLineTwo>
+  <switchToLineOne><FILE>C:\Users\iAngelMx\Documents\GitHub\microControllers\Practica08_2.asm</FILE><LINE>275</LINE></switchToLineOne>
  </LABELS>
 </ASSEMBLER_INFO>

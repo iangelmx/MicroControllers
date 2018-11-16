@@ -4,8 +4,12 @@
 	.def cont2 = r18
 	.cseg
 	.org 0
+	rjmp reset
 
-	ldi temp, $fe 
+	.org $012 ;Para la interrup de RecxCmp
+	rjmp recibe
+
+reset: ldi temp, $fe 
 	out ddrd, temp ; Se establece D0 como entrada
 ;;**1 punto
 	rcall delay_50ms
