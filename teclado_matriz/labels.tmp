@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <WORKING_DIR>c:\</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m48def.inc</FILE>
+ </INCLUDED_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>19</LINE></reset>
+  <recibe><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>379</LINE></recibe>
+  <delay_1ms><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>347</LINE></delay_1ms>
+  <clear><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>332</LINE></clear>
+  <main><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>106</LINE></main>
+  <teclado><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>110</LINE></teclado>
+  <delay_2us><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>412</LINE></delay_2us>
+  <fila_0><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>137</LINE></fila_0>
+  <fila_4><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>141</LINE></fila_4>
+  <fila_8><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>145</LINE></fila_8>
+  <fila_c><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>149</LINE></fila_c>
+  <sigue><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>132</LINE></sigue>
+  <delay_100ms><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>361</LINE></delay_100ms>
+  <teclado2><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>190</LINE></teclado2>
+  <al><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>155</LINE></al>
+  <mw><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>158</LINE></mw>
+  <xz><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>161</LINE></xz>
+  <num><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>164</LINE></num>
+  <columna_0><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>169</LINE></columna_0>
+  <sigue2><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>209</LINE></sigue2>
+  <columna_1><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>174</LINE></columna_1>
+  <columna_2><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>179</LINE></columna_2>
+  <columna_3><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>184</LINE></columna_3>
+  <print><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>381</LINE></print>
+  <sendChar><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>225</LINE></sendChar>
+  <returnHome><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>274</LINE></returnHome>
+  <primeraLinea><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>290</LINE></primeraLinea>
+  <aux><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>305</LINE></aux>
+  <valida32><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>391</LINE></valida32>
+  <aux3><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>309</LINE></aux3>
+  <switchToLineTwo><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>398</LINE></switchToLineTwo>
+  <segundaLinea><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>315</LINE></segundaLinea>
+  <lazo1><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>349</LINE></lazo1>
+  <lazo3><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>363</LINE></lazo3>
+  <lazo2><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>365</LINE></lazo2>
+  <switchToLineOne><FILE>C:\Users\Coraje180\Desktop\teclado_matriz\teclado.asm</FILE><LINE>404</LINE></switchToLineOne>
+ </LABELS>
+</ASSEMBLER_INFO>
