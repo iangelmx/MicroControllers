@@ -3,7 +3,7 @@
 
 	$headers = getallheaders();
 
-	if( isset($headers['Auth']) && $headers['Auth'] == "mLctE2cOq3grtg9F" ){
+	if( isset($headers['Auth']) && $headers['Auth'] == "mLctE2cOq3g" ){
 		
 		if(  isset($_POST['getStatusVoltaje']) ){
 			require 'API_tmx.php';

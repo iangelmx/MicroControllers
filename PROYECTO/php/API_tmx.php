@@ -15,10 +15,10 @@ class API_tmx
 
 	/* PRODUCCION: */
 	protected function conectaBD(){
-		$db_host= "localhost:4002";
-		$db_user= "adminNoDrop";
-		$db_password= "Trun0k2SAg";
-		$db_name= "pdstelmex_preprod";
+		$db_host= "201.107.5.3";
+		$db_user= "";
+		$db_password= "";
+		$db_name= "";
 		$db = mysqli_connect($db_host,$db_user,$db_password,$db_name);
 		return $db;
 	}
