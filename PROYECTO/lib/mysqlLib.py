@@ -76,7 +76,7 @@ class Bd():
 
 		return True #MEJORA ISSSUE 14	
 	def doQuery(self,  myQuery) :
-		myConnection =pymysql.connect( host=self.hostname, user=self.username, passwd=self.password, db=self.database, charset='utf8' )	#Crear la conexión con la BD
+		myConnection =pymysql.connect( host=self.hostname, user=self.username, passwd=self.password, db=self.database, charset='utf8', port=self.port )	#Crear la conexión con la BD
 		cur = myConnection.cursor()
 		cur.execute( myQuery )	
 		result=cur.fetchall()
